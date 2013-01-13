@@ -1,4 +1,3 @@
-cd ~/
-git clone https://github.com/sethgho/vim-settings.git .vim
-bash ~/.vim/deploy.sh
-
+    cd ~/
+    git clone https://fuhrysteve@github.com/fuhrysteve/vim-settings.git .vim
+    bash ~/.vim/deploy.sh
