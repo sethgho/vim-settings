@@ -34,3 +34,6 @@ map <C-l> <C-W>l
 
 set visualbell           " don't beep
 set noerrorbells         " don't beep
+
+let mapleader = ','
+colorscheme wombat
