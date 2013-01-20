@@ -11,7 +11,6 @@ set hidden
 set backspace=indent,eol,start	" backspace for dummies... :(
 set nowrap
 set cursorline
-set tabstop=4
 set autoindent
 set copyindent 
 set number " always show line numbers
@@ -21,6 +20,7 @@ set ignorecase    " ignore case when searching
 set smartcase     " ignore case if search pattern is all lowercase,
 				"    case-sensitive otherwise
 set smarttab      " insert tabs on the start of a line  according to  shiftwidth, not tabstop
+set shiftwidth=4  " Create 4 spaces when tab is pressed
 set hlsearch      " highlight search terms
 set incsearch     " show search  matches as you type
 set history=1000         " remember more commands and search history
@@ -30,7 +30,6 @@ set listchars=tab:,.,trail:.,extends:#,nbsp:. " Highlight problematic whitespace
 
 set expandtab                   " tabs are spaces, not tabs
 set tabstop=4                   " an indentation every four columns
-set softtabstop=4               " let backspace delete indent
 
 set pastetoggle=<F12>           " pastetoggle (sane indentation on pastes)
 "set comments=sl:/*,mb:*,elx:*/  " auto format comment blocks
